@@ -1,0 +1,51 @@
+body    {
+    background-color: rgb(252,166,201,255);
+    margin: auto;
+    width: 400px;
+
+}
+.title {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.title:hover {
+    color: black;
+}
+#quote1 {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+}
+#quote-author {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+#list {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 88%;
+    letter-spacing: -1px;
+    line-height: 200%;
+}
+#img-div {
+    text-align: center;
+}
+#img {
+    max-width: 120px;
+}
+#quote2 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    width: 275px;
+    margin: auto;
+}
+#foot {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 320px;
+    margin: auto;
+}

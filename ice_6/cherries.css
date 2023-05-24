@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-style {
+    z-index: -1;
+    background-color: white;
+    float: left;
+    position: fixed;
+    grid-column: 1/2
+    
+}
+
+.big-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 150px;
+    grid-column: 2/3;
+    z-index: 1;
+    word-spacing: 0px;
+    letter-spacing: 15px;
+    padding: 100px;
+    padding-left: 65px;
+    padding-top: 125px;
+
+}
+
+.small-text {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    text-align: center;
+    grid-column: 3/4;
+    letter-spacing: 5px;
+}

@@ -111,7 +111,7 @@ main section img {
 
 .msg {
     background-color: var(--secondary-color);
-    line-height: 1.5em;
+    line-height: 1.75em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -170,7 +170,6 @@ nav a :hover {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover{
@@ -214,7 +213,12 @@ nav a {
     text-align: center;
 }
 .button-box {
-    text-align : right;
+    text-align : center;
+    margin: auto;
+    display: flex;
+    padding: 0px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 
@@ -235,6 +239,45 @@ nav a {
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
+ /*sub-page 1 css below*/
+ .subpage-title {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+    text-shadow: 3px 3px var(--accent1-color);
+ }
+
+ #background-2 {
+    height: 725px;
+    background-color: var(--accent1-color);
+    grid-column: 1/11;
+    grid-row: 9/14;
+ }
+ #mountains-img-2 {
+    grid-column: 5/10;
+    grid-row: 10/13;
+    width: 100%;
+ }
+ .msg-2 {
+    background-color: var(--secondary-color);
+    line-height: 1.75em;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 11/12;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg-2 h2 {
+    color: var(--accent1-color);
+}
+.msg-2 p {
+    color: var(--accent1-color);
+    font-size: 1.8em;
+    padding-bottom: 15px;
+}
+
+ /*index media below*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

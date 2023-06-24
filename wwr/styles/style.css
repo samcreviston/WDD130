@@ -23,11 +23,11 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
-
-
-
+nav a {
+    vertical-align: middle;
+}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>SamuelThomas Photo</title>
+    <title>SamuelThomas Photography</title>
 </head>
 <body>
     <header>
@@ -20,29 +20,75 @@
         <img id="hero" src="images/hero.JPG" alt="home image">
     </section>
     <main>
-        <section class="image-tiles">
-            <section>
-                <img id="portraits" src="images/Logan Creviston.JPG" alt="">
-                <h3>Portraits</h3>
-                <p>Personal photos for social media, professional profiles, graduation, etc. </p>
+        <section class="image-options">
+            <section id="portraits-section">
+                <img class="portraits" src="images/Logan Creviston.JPG" 
+                alt="">
+                <img class="portraits" src="images/Portrait-Skinner.jpg" alt="">
+                <img class="portraits" src="images/Portrait-Woods.JPG" alt="">
+                <img class="portraits" src="images/Portrait-Jacob.jpg" alt="">
             </section>
             <section>
-                <img id="couples-groups" src="images/Sam Creviston.jpg" alt="">
-                <h3>Couples and Groups</h3>
-                <p>engagement, wedding, event, group, etc.</p>
+            <button class="portrait-info" type="button" onclick="window.location.href = 'https://samcreviston.github.io/WDD130/samuelthomasphotography/site-plan.html'">Pricing</button>
+            <h3 class="portrait-info">Portraits</h3>
+            <section id="portrait-p">
+                <p class="portrait-info">Personal photos for social media, professional profiles, graduation, etc. </p>
+            </section>
+            </section>
+
+            <section id="couples-section">
+                <img class="couples" src="images/Couples-BrothersLC (2).JPG" alt="">
+                <img class="couples" src="images/Couples-BrothersLC (1).JPG" alt="">
+                <section id="couples-subgrid">
+                    <img class="couples" src="images/group-district.jpg" alt="">
+                    <img class="couples" src="images/Couples-Amy.jpg" alt="">                
                 </section>
-            <section id="stock">
-                <img src="images/Elder Sims.jpg" alt="">
-                <h3>Stock</h3>
-                <p>commissioned photographs of any kind for any use</p>
+                <section>
+                    <h3>Couples and Groups</h3>
+                    <p>engagement, wedding, event, group, etc.</p>
+                    <button type="button" onclick="window.location.href = 'https://samcreviston.github.io/WDD130/samuelthomasphotography/site-plan.html'">Pricing</button>
+                </section>
+            </section>
+            <section id="stock-section">
+                <section>
+                    <h3>Stock</h3>
+                    <p>Commissioned photographs of any kind for any use.</p>
+                    <button type="button" onclick="window.location.href = 'https://samcreviston.github.io/WDD130/samuelthomasphotography/site-plan.html'">Pricing</button>
+                </section>
+                <section class="stock-subgrid">
+                    <img class="stock" src="images/stock-tree.jpg" alt="">
+                    <img class="stock" src="images/Other-hdr.jpg" alt="">
+                </section>
+                <section class="stock-subgrid">
+                    <img class="stock" src="images/stock-light.JPG" alt="">
+                    <img class="stock" src="images/stock-pineapple.jpg" alt="">
+                </section>
+                <section class="stock-subgrid">
+                    <img class="stock" src="images/Stock-light2.jpg" alt="">
+                    <img class="stock" src="images/stock-coke.jpg" alt="">
+                </section>
             </section>
         </section>
-        <h2 id="explanation">  Professional Photography, Just the Way You Would Like</h4>
-        <h4 id="explanation-p">Samuel Thomas enjoys photography from portraits to landscapes, and is ready to provide your next photoshoot! Choose the style you would like from above to choose your bundle and schedule your photoshoot.</h4>
+        <section>
+            <h2 id="explanation">  Professional Photography, Just the Way You Would Like</h2>
+            <h4 id="explanation-p">Samuel Thomas enjoys photography from portraits to landscapes, and is ready to provide your next photoshoot! Choose the style you would like from above to select your bundle and schedule your photoshoot.</h4>
+        </section>
     </main>
     <footer>
-
-
+        <section>
+            <h6 class="contact">contact information:</h6>
+            <ul class="contact">
+                <li>samuelcreviston@gmail.com</li>
+                <li>cre20005@byui.edu</li>
+            </ol>
+        </section>
+            
+        <section id="footer-nav">
+            <a class="nav-text" href="bundles.html">Bundles and Pricing</a>
+            <a class="nav-text" href="about.html">About</a>
+        </section>
+        <a href="https://www.instagram.com/crevistonsam/"><img class="footer-img" src="images/insta-v.svg" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100014015836100"><img class="footer-img" src="images/fb-v.svg" alt="Facebook"></a>
     </footer>
 </body>
 </html>

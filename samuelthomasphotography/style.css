@@ -239,15 +239,21 @@ main {
 #text1 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding-top: 15px;
 }
 #text2 {
     background-color: var(--accent1-color);
+    padding-top: 15px;
+}
+#text3 {
+    padding-top: 15px;
 }
 #text4 {
     background-color: var(--accent2-color);
     color:  var(--paragraph-color-on-white);
+    padding-top: 10px;
 }
-#space {
+.space {
     height: 20px;
 }
 

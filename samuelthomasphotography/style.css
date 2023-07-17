@@ -261,6 +261,9 @@ footer {
 
 /* About Page */
 
+#bundle-body {
+    min-width: 850px;
+}
 .options {
     position: relative;
 }
@@ -275,10 +278,16 @@ footer {
     z-index: 1;
     color: var(--accent2-color);
     background-color: rgba(100, 100, 100, 0.6);
+    font-size: 1.2em;
     
 }
 #stock-block {
-    margin-top: 35%;
+    position: absolute;
+    z-index: 1;
+    color: var(--accent2-color);
+    background-color: rgba(100, 100, 100, 0.6);
+    font-size: 1.4em;
+    margin-top: 30%;
 }
 
 

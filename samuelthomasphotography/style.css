@@ -261,8 +261,25 @@ footer {
 
 /* About Page */
 
+.options {
+    position: relative;
+}
 
-
+.bundle-collage {
+    z-index: 0;
+    width: 100%;
+    min-width: 900px;
+}
+.options-text {
+    position: absolute;
+    z-index: 1;
+    color: var(--accent2-color);
+    background-color: rgba(100, 100, 100, 0.6);
+    
+}
+#stock-block {
+    margin-top: 35%;
+}
 
 
 
